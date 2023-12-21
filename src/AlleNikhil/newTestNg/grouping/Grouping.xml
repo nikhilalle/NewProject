@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <groups>
+        <run>
+            <include name="Nikhil"/>
+            <include name="Shri"/>
+            <exclude name="Akash"/>
+        </run>
+    </groups>
+    <test verbose="2" preserve-order="true"
+          name="Grouping">
+
+        <classes>
+            <class name="com.matrix.AlleNikhil.newTestNg.grouping.Grouping"></class>
+        </classes>
+    </test>
+</suite>

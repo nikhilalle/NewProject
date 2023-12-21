@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="Student RollNO" value="101"></parameter>
+<parameter name="Student Name" value="Nikhilesh Alle"></parameter>
+    <parameter name="Student Division"  value="A"></parameter>
+    
+    <parameter name="Marks on Maths" value="98"></parameter>
+    <parameter name="Marks on Physics" value="76"></parameter>
+    <parameter name="Marks on Chemistry"  value="87"></parameter>
+    <parameter name="Marks on Biology"  value="89"></parameter>
+
+    
+    <test verbose="2" preserve-order="true"
+          
+          name="Student Form Parameter.java">
+        <classes>
+            <class name="com.matrix.AlleNikhil.newTestNg.testNGPrameter.prameter.StudentFormParameter"></class>
+        </classes>
+    </test>
+</suite>

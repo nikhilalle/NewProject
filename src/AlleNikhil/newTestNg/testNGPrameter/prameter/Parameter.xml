@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" >
+
+    <parameter name="Instagram site" value="Instagram"></parameter>
+    <parameter name="Amazon site" value="Amazon"></parameter>
+    <parameter name="Facebook site" value="facebook"></parameter>
+
+    <test verbose="2" preserve-order="true"
+          name="Parameter" >
+       <classes>
+           <class name="com.matrix.AlleNikhil.newTestNg.testNGPrameter.prameter.Parameter"/>
+
+       </classes>
+
+    </test>
+</suite>
