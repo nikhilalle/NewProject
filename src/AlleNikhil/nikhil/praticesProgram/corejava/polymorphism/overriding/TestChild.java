@@ -1,6 +1,6 @@
-package com.matrix.nikhil.praticesProgram.corejava.polymorphism.overriding;
+package AlleNikhil.nikhil.praticesProgram.corejava.polymorphism.overriding;
 
-public class TestChild extends TestParent{
+public class TestChild extends com.matrix.nikhil.praticesProgram.corejava.polymorphism.overriding.TestParent {
 
     public void m1() {
         System.out.println("Child m1 method");

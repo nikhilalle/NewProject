@@ -1,4 +1,4 @@
-package com.matrix.nikhil.praticesProgram.corejava.polymorphism.overriding;
+package AlleNikhil.nikhil.praticesProgram.corejava.polymorphism.overriding;
 
 public class OverridingParent2 {
 
@@ -11,7 +11,7 @@ public class OverridingParent2 {
         System.out.println("Parent Private:: m2 method");
     }
 
-    public RBI m3() {
+    public com.matrix.nikhil.praticesProgram.corejava.polymorphism.overriding.RBI m3() {
         System.out.println("Parent :: m3 method");
         return null;
     }

@@ -1,11 +1,11 @@
-package com.matrix.AlleNikhil.selenium.assignments.assignment21;
+package AlleNikhil.selenium.assignments.assignment21;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class AddToCart extends ActionPage{
     WebDriver driver;
-    AddToCart(WebDriver driver){
+    public AddToCart(WebDriver driver){
         this.driver=driver;
 
     }

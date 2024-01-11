@@ -1,9 +1,9 @@
 package com.matrix.nikhil.java.corejava.variables;
 
 public class VariableProgram2 {
-    String name="Shri";
-    String name1="Nikhil";
-    static String surname="Alle"; //Static Variable
+    public String name="Shri";
+    public String name1="Nikhil";
+    public static String surname="Alle"; //Static Variable
 
     public void get(){
         System.out.println("Name :"+name);

@@ -1,6 +1,6 @@
-package com.matrix.AlleNikhil.TestAll.testNgClass;
+package AlleNikhil.TestAll.testNgClass;
 
-public class ClassA implements ClassZ {
+public class ClassA implements com.matrix.AlleNikhil.TestAll.testNgClass.ClassZ {
     public void get(){
         System.out.println("I am  in Get Method in Class A");
     }

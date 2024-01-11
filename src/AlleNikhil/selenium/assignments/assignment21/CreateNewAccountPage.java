@@ -1,11 +1,11 @@
-package com.matrix.AlleNikhil.selenium.assignments.assignment21;
+package AlleNikhil.selenium.assignments.assignment21;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class CreateNewAccountPage extends ActionPage {
     WebDriver driver;
-    CreateNewAccountPage(WebDriver driver){
+    public CreateNewAccountPage(WebDriver driver){
         this.driver=driver;
 
     }

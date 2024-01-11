@@ -1,4 +1,6 @@
-package com.matrix.nikhil.praticesProgram.corejava.polymorphism.overriding;
+package AlleNikhil.nikhil.praticesProgram.corejava.polymorphism.overriding;
+
+import com.matrix.nikhil.praticesProgram.corejava.polymorphism.overriding.RBI;
 
 public class OverridingChild2 extends OverridingParent2{
 
@@ -10,7 +12,7 @@ public class OverridingChild2 extends OverridingParent2{
         System.out.println("Child Private:: m2 method");
     }
 
-    public HDFC m3() {
+    public RBI m3() {
         System.out.println("Child :: m3 method");
         return null;
     }

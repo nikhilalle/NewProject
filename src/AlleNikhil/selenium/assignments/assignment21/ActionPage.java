@@ -1,4 +1,4 @@
-package com.matrix.AlleNikhil.selenium.assignments.assignment21;
+package AlleNikhil.selenium.assignments.assignment21;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

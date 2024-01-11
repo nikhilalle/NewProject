@@ -1,10 +1,11 @@
 package com.matrix.AlleNikhil.selenium.assignments.assignment21;
 
+import AlleNikhil.selenium.assignments.assignment21.ActionPage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
-public class Page extends ActionPage{
+public class Page extends ActionPage {
     WebDriver driver;
 
     Page(WebDriver driver) {

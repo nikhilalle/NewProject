@@ -1,4 +1,4 @@
-package com.matrix.nikhil.java.corejava.variables;
+package AlleNikhil.nikhil.java.corejava.variables;
 
 public class Program {
 
@@ -10,14 +10,14 @@ public class Program {
         Program abc=new Program();  // Another Class Called
         setData(); // Directly Call
 
-        VariableProgram2 obj=new VariableProgram2();
+        com.matrix.nikhil.java.corejava.variables.VariableProgram2 obj=new com.matrix.nikhil.java.corejava.variables.VariableProgram2();
         System.out.println(obj.name); // We can Call By Using Object i.e obj
 
-        System.out.println(VariableProgram2.surname); // Surname is Static so we can Call By Using Class name
+        System.out.println(com.matrix.nikhil.java.corejava.variables.VariableProgram2.surname); // Surname is Static so we can Call By Using Class name
 
         System.out.println(obj.name1);  // We can Call By Using Object i.e obj
 
-        System.out.println(VariableProgram2.surname); // Surname is Static so we can Call By Using Class name
+        System.out.println(com.matrix.nikhil.java.corejava.variables.VariableProgram2.surname); // Surname is Static so we can Call By Using Class name
 
     }
 }

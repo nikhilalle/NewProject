@@ -2,7 +2,7 @@ package com.matrix.nikhil.praticesProgram.programsTest;
 
 import org.testng.annotations.Test;
 
-public class RevString {
+public class RevStringEachChar {
     @Test
     public void str() {
         String str = "Shriniwas";
@@ -28,10 +28,10 @@ public class RevString {
     }
     @Test
     public void stringReverse1(){
-        String name="Nikhilesh";
+        String name="Nikhilesh is my name";
         String str=" ";
         char ch;
-        for(int i=0;i<name.length()-1;i++){
+        for(int i=0;i<=name.length()-1;i++){
             ch=name.charAt(i);
             str=ch+str;
         }
