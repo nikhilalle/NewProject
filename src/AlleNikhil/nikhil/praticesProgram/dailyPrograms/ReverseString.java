@@ -1,4 +1,4 @@
-package com.matrix.nikhil.praticesProgram.dailyPrograms;
+package AlleNikhil.nikhil.praticesProgram.dailyPrograms;
 
 import org.testng.annotations.Test;
 
