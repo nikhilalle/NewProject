@@ -1,5 +1,6 @@
-package com.matrix.AlleNikhil.newTestNg.grouping;
+package AlleNikhil.newTestNg.grouping;
 
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
 public class Grouping {
@@ -30,10 +31,11 @@ public class Grouping {
     public void test6() {
         System.out.println("Test 6  Method :  groups = Nikhil  ");
     }
+
     @Test (groups = "Akash")
     public void test7() { System.out.println("Test 7  Method :  groups = Akash  ");
     }
-    @Test(groups = "Shri")
+    @Test(groups = {"Shri","Nikhil"})
     public void test8() {
         System.out.println("Test 8  Method : groups = Shri  ");
     }

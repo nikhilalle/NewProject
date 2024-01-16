@@ -40,11 +40,11 @@ public class SelectClassTest {
 //        for(int i=0;i<10;i++) {
 //            List<WebElement> elements = driver.findElements(By.xpath("//div[@class='dropdown'][i]"));
 //            elements.get(i).click();
-    //for(int j=i;j<=i;j++) {
-    //       WebElement listElement = driver.findElement(By.xpath("//select[@id='firstName'][1]"));
-    //
-    //
-    // WebElement listElement = driver.findElement(By.xpath("//select[@id='firstName'] [" +j+"] "));
+//for(int j=i;j<=i;j++) {
+//       WebElement listElement = driver.findElement(By.xpath("//select[@id='firstName'][1]"));
+//
+//
+// WebElement listElement = driver.findElement(By.xpath("//select[@id='firstName'] [" +j+"] "));
 
 ////div[@class='container']//div[4]//select//option[4]
 

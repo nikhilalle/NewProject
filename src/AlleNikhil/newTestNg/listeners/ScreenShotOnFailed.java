@@ -1,4 +1,4 @@
-package com.matrix.AlleNikhil.newTestNg.listeners;
+package AlleNikhil.newTestNg.listeners;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.commons.io.FileUtils;
@@ -10,6 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import java.io.File;
@@ -39,7 +40,7 @@ public class ScreenShotOnFailed {
         if(result.getStatus()==ITestResult.FAILURE){
             TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
             File source = takesScreenshot.getScreenshotAs(OutputType.FILE);
-            File destination = new File("D:\\Java-June 2022\\corejava-selenium-june22\\src\\main\\java\\com\\matrix\\AlleNikhil\\newTestNg\\listeners" + date + ".jpg");
+            File destination = new File("N:\\NewProject\\src\\AlleNikhil\\newTestNg\\listeners\\screenShots" + date + ".jpg");
             FileUtils.copyFile(source, destination);
         }
     }

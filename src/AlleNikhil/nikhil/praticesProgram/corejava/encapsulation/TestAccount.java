@@ -1,4 +1,4 @@
-package com.matrix.nikhil.praticesProgram.corejava.encapsulation;
+package AlleNikhil.nikhil.praticesProgram.corejava.encapsulation;
 
 public class TestAccount {
 
@@ -12,7 +12,7 @@ public class TestAccount {
 
     }
 
-    public int getAccountNumber() {
+    public int getAccountNumber1() {
         return accountNumber;
     }
 
@@ -26,7 +26,7 @@ public class TestAccount {
 
     }
 
-    public void setAccountNumber(int accountNumber) {
+    public void setAccountNumber1(int accountNumber) {
         this.accountNumber=accountNumber;
     }
 

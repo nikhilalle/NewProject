@@ -43,10 +43,15 @@ o/p-avaJ
     @Test
     public void get1(){
         String  str="Java";
-        String st[]=str.split(" ");
-        for(int i=st.length-1;i<=0;i--){
-            System.out.println(st[i]);
+        char ch;
+        String str1=" ";
+
+        for(int i=0;i<str.length();i++){
+            ch=str.charAt(i);
+            str1=ch+str1;
+
         }
+        System.out.println(str1);
     }
 
 //    @Test

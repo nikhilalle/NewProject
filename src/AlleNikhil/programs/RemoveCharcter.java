@@ -8,10 +8,14 @@ public class RemoveCharcter {
         String str="My self  Nikhilesh";
         String st[]=str.split(" ");
         char ch;
-        for(int i=0;i<st.length;i++){
+        String t=" ";
+        System.out.println(st.length);
+        for(int i=0;i<=st.length;i++){
             ch=str.charAt(i);
             if(ch=='a'|| ch=='e'|| ch=='i'|| ch=='o'|| ch=='u'){
-                System.out.println("sdfw"+ch);
+                t=ch+t;
+                System.out.println("sdfw" +t);
+
             }
         }
     }

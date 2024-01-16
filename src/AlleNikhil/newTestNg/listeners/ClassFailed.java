@@ -1,5 +1,6 @@
-package com.matrix.AlleNikhil.newTestNg.listeners;
+package AlleNikhil.newTestNg.listeners;
 
+import AlleNikhil.newTestNg.listeners.Test_Listeners;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
@@ -51,7 +52,7 @@ public class ClassFailed {
         if(result.getStatus()==ITestResult.FAILURE) {
             TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
             File source = takesScreenshot.getScreenshotAs(OutputType.FILE);
-            File destination = new File("D:\\Java-June 2022\\corejava-selenium-june22\\src\\main\\java\\com\\matrix\\AlleNikhil\\newTestNg\\listeners" + date + ".jpg");
+            File destination = new File("N:\\NewProject\\src\\AlleNikhil\\newTestNg\\listeners\\screenShots" + date + ".jpg");
             FileUtils.copyFile(source, destination);
         }
     }
