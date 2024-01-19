@@ -1,4 +1,4 @@
-package com.matrix.AlleNikhil.selenium.selenium.eventMouse_Keybord;
+package AlleNikhil.selenium.selenium.eventMouse_Keybord;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
@@ -19,7 +19,9 @@ public class KeyBoardTest {
         Actions actions = new Actions(driver);
 
         WebElement userIDKey = driver.findElement(By.id("user-name"));
-        actions.keyDown(userIDKey, Keys.SHIFT).sendKeys("nikhilesh").keyUp(Keys.SHIFT).build().perform();
+        actions.keyDown(userIDKey, Keys.SHIFT).sendKeys("nikhilesh").keyUp(Keys.SHIFT)
+                .keyDown(Keys.SHIFT).sendKeys("Rahul").keyUp(Keys.SHIFT)
+                .keyDown(Keys.SHIFT).sendKeys("12222").keyUp(Keys.SHIFT).build().perform();
         actions.doubleClick().build().perform();
         WebElement passwordKey = driver.findElement(By.id("password"));
         actions.keyDown(passwordKey, Keys.SHIFT).sendKeys("AlleNikhil.nikhil%78765").keyUp(Keys.SHIFT).build().perform();

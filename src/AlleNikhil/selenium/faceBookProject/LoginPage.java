@@ -1,4 +1,4 @@
-package com.matrix.AlleNikhil.selenium.faceBookProject;
+package AlleNikhil.selenium.faceBookProject;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

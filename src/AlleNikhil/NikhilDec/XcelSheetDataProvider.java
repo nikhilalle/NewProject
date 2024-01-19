@@ -24,7 +24,7 @@ public class XcelSheetDataProvider {
     public void TakeDetails(String browser, String dataSet) {
         System.out.println("BROWSER Name  :  " + browser);
         System.out.println("Details       :  " + dataSet);
-        String[] value = dataSet.split(",");
+        String[] value = dataSet.splite(",");
         String id = value[0];
         String pawrd = value[1];
         if (browser.equalsIgnoreCase("chrome")) {

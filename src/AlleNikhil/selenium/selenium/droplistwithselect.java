@@ -1,4 +1,4 @@
-package com.matrix.AlleNikhil.selenium.selenium;
+package AlleNikhil.selenium.selenium;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
-public class DropListWithSelect {
+public class droplistwithselect {
     @Test
     public void addToCart() {
         WebDriverManager.chromedriver().setup();

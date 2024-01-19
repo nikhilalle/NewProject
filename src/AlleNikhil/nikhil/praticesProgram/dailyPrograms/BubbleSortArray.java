@@ -1,4 +1,4 @@
-package com.matrix.nikhil.praticesProgram.dailyPrograms;
+package AlleNikhil.nikhil.praticesProgram.dailyPrograms;
 
 public class BubbleSortArray {
     public static void main(String[] args) {

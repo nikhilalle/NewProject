@@ -1,4 +1,4 @@
-package com.matrix.AlleNikhil.selenium.selenium;
+package AlleNikhil.selenium.selenium;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;

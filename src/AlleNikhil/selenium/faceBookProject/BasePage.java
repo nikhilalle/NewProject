@@ -1,4 +1,4 @@
-package com.matrix.AlleNikhil.selenium.faceBookProject;
+package AlleNikhil.selenium.faceBookProject;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;

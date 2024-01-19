@@ -2,6 +2,7 @@ package com.matrix.nikhil.praticesProgram.dailyPrograms;
 
 import org.testng.annotations.Test;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Array3RdLargestNo {
@@ -85,5 +86,20 @@ public class Array3RdLargestNo {
             j=a.length-3;
             System.out.println(a[j]);
         }
+    }
+
+
+    @Test
+    public void get32(){
+        int i,j,s;
+        int a[]={12,32,34,54,56,56,78,98,789,120,768};
+        Arrays.sort(a);
+       for(int b:a){
+           System.out.print("  "+b);
+       }
+        j=a.length-3;
+       s=a.length-4;
+        System.out.println(" Length of last  in 4  :  "+a[s]);
+        System.out.println(a[j]);
     }
 }
