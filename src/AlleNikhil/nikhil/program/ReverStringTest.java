@@ -16,7 +16,6 @@ public class ReverStringTest {
             ch = str.charAt(i);
 
             rvs = ch + rvs;
-
         }
         System.out.println("The reverse string is:" + rvs);
 

@@ -1,4 +1,4 @@
-//
+//package AlleNikhil.selenium.assignments;
 //
 //import io.github.bonigarcia.wdm.WebDriverManager;
 //
@@ -14,7 +14,7 @@
 //
 //public class Assignment4_SaucedemoAddCart {
 //    private DefaultLoggerFinder LogManager;
-//    Logger log= LogManager.getLogger(Assignment4_SaucedemoAddCart.class);
+//    Logger log= (Logger) LogManager.getLogger(Assignment4_SaucedemoAddCart.class);
 //
 //    @Test
 //    public void addCartDetails() {

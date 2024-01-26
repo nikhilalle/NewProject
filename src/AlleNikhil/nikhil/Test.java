@@ -2,11 +2,16 @@ package AlleNikhil.nikhil;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.events.WebDriverEventListener;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
+import java.util.NoSuchElementException;
+import java.util.concurrent.TimeUnit;
 
 public class Test {
 
@@ -60,6 +65,24 @@ abbc     */
                 System.out.println(str.substring(i, j));
     }
 
+    @org.testng.annotations.Test
+    public void hashCode1() {
+        WebDriver driver;
+        driver = new ChromeDriver();
+        FluentWait wait = new FluentWait(driver);
+//Specify the timout of the wait
+        wait.withTimeout(Duration.ofSeconds(12));
+//Sepcify polling time
+        wait.pollingEvery(Duration.ofSeconds(12));
+//Specify what exceptions to ignore
+
+
+//This is how we specify the condition to wait on.
+//This is what we will explore more in this chapter
+        wait.until(ExpectedConditions.alertIsPresent());
+
+    }
 
 }
+
 

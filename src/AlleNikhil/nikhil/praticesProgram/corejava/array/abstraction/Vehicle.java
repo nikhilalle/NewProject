@@ -1,4 +1,4 @@
-package com.matrix.nikhil.praticesProgram.corejava.abstraction;
+package AlleNikhil.nikhil.praticesProgram.corejava.array.abstraction;
 
 public abstract class Vehicle {
 
